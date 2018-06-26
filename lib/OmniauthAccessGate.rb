@@ -20,7 +20,8 @@ module OmniAuth
 
       info do
         {
-          :csid => raw_info["csid"]
+          :csid => raw_info["csid"],
+          :email => raw_info["email"]
           # and anything else you want to return to your API consumers
         }
       end
